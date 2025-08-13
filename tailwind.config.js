@@ -4,6 +4,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'bg-dark-900',
+  ],
   theme: {
     extend: {
       colors: {
@@ -53,4 +56,4 @@ export default {
     },
   },
   plugins: [],
-} 
+}
