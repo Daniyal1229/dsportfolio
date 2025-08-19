@@ -18,7 +18,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="section-padding bg-gradient-to-br from-dark-900 via-purple-900/5 to-dark-900">
+    <section id="experience" className="section-padding" style={{ background: 'linear-gradient(to bottom right, #0f172a, rgba(147, 51, 234, 0.05), #0f172a)' }}>
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -50,7 +50,7 @@ const Experience = () => {
                 className="relative"
               >
                 {/* Timeline Dot */}
-                <div className="absolute left-6 top-6 w-4 h-4 bg-purple-500 rounded-full border-4 border-dark-900 hidden lg:block"></div>
+                <div className="absolute left-6 top-6 w-4 h-4 bg-purple-500 rounded-full border-4 hidden lg:block" style={{ borderColor: '#0f172a' }}></div>
 
                 <div className={`lg:ml-16 ${index % 2 === 0 ? 'lg:mr-8' : 'lg:ml-24'}`}>
                   <motion.div
@@ -96,7 +96,8 @@ const Experience = () => {
                           {exp.technologies.map((tech) => (
                             <span
                               key={tech}
-                              className="px-3 py-1 bg-dark-700 text-white/80 rounded-full text-sm font-medium border border-white/20"
+                              className="px-3 py-1 text-white/80 rounded-full text-sm font-medium border border-white/20"
+                              style={{ backgroundColor: '#334155' }}
                             >
                               {tech}
                             </span>

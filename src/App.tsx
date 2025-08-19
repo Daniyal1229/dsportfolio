@@ -20,7 +20,7 @@ function App() {
       </main>
       
       {/* Footer */}
-      <footer className="bg-dark-900 py-8 border-t border-white/10">
+      <footer className="py-8 border-t border-white/10" style={{ backgroundColor: '#0f172a' }}>
         <div className="container-custom text-center">
           <p className="text-white/60">
             © 2024 Syed Daniyal Bokhari. All rights reserved.

@@ -18,7 +18,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="section-padding bg-gradient-to-br from-dark-800 via-purple-900/10 to-dark-800">
+    <section id="projects" className="section-padding" style={{ background: 'linear-gradient(to bottom right, #1e293b, rgba(147, 51, 234, 0.1), #1e293b)' }}>
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -39,7 +39,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <motion.div
               key={project.id}
               variants={itemVariants}
@@ -79,7 +79,10 @@ const Projects = () => {
                       href={project.github}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="flex-1 px-4 py-2 bg-dark-700 hover:bg-dark-600 text-white text-center rounded-lg transition-colors duration-200 text-sm font-medium border border-white/20"
+                      className="flex-1 px-4 py-2 text-white text-center rounded-lg transition-colors duration-200 text-sm font-medium border border-white/20"
+                      style={{ backgroundColor: '#334155' }}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#475569'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#334155'}
                     >
                       GitHub
                     </motion.a>

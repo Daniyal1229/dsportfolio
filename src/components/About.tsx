@@ -18,7 +18,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="section-padding bg-gradient-to-br from-dark-800 via-purple-900/10 to-dark-800">
+    <section id="about" className="section-padding" style={{ background: 'linear-gradient(to bottom right, #1e293b, rgba(147, 51, 234, 0.1), #1e293b)' }}>
       <div className="container-custom">
         <motion.div
           variants={containerVariants}

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const HeroFallback = () => {
   return (
-    <div className="h-screen w-full relative bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900 flex items-center justify-center">
+    <div className="h-screen w-full relative flex items-center justify-center" style={{ background: 'linear-gradient(to bottom right, #0f172a, #1e293b, #0f172a)' }}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]"></div>

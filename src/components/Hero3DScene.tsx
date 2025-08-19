@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Hero3DScene = () => {
   return (
-    <div className="h-screen w-full relative bg-gradient-to-br from-dark-900 via-purple-900/20 to-dark-900 overflow-hidden">
+    <div className="h-screen w-full relative overflow-hidden" style={{ background: 'linear-gradient(to bottom right, #0f172a, rgba(147, 51, 234, 0.2), #0f172a)' }}>
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         {/* Floating Geometric Shapes */}
@@ -153,7 +153,7 @@ const Hero3DScene = () => {
       </div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-dark-900/50 via-transparent to-dark-900/50" />
+              <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(15, 23, 42, 0.5), transparent, rgba(15, 23, 42, 0.5))' }} />
     </div>
   );
 };

@@ -9,7 +9,9 @@
   }
   
   body {
-    @apply bg-dark-900 text-white font-sans;
+    background-color: #0f172a;
+    color: white;
+    font-family: 'Inter', system-ui, sans-serif;
   }
 }
 
@@ -38,10 +40,6 @@
 @layer utilities {
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  }
-
-  .custom-bg-dark {
-    @apply bg-dark-900;
   }
   
   .scrollbar-hide {
