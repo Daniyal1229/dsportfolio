@@ -6,6 +6,25 @@ export default {
   ],
   safelist: [
     'bg-dark-900',
+    'bg-dark-800',
+    'bg-dark-700',
+    'bg-dark-600',
+    'bg-dark-500',
+    'bg-dark-400',
+    'bg-dark-300',
+    'bg-dark-200',
+    'bg-dark-100',
+    'bg-dark-50',
+    'text-dark-900',
+    'text-dark-800',
+    'text-dark-700',
+    'text-dark-600',
+    'text-dark-500',
+    'text-dark-400',
+    'text-dark-300',
+    'text-dark-200',
+    'text-dark-100',
+    'text-dark-50',
   ],
   theme: {
     extend: {
@@ -56,4 +75,4 @@ export default {
     },
   },
   plugins: [],
-}
+} 
