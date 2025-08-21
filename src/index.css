@@ -49,7 +49,4 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  .bg-dark-900 {
-    background-color: #0f172a;
-  }
 }
